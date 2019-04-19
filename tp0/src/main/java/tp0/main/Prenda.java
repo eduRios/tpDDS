@@ -1,8 +1,8 @@
 package tp0.main;
 
-public class Persona {
+public class Prenda {
 
-	public Persona() {
+	public Prenda() {
 		// TODO Auto-generated constructor stub
 	}
 
