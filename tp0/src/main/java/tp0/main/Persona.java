@@ -9,7 +9,6 @@ public class Persona {
 	List<Prenda> indumentaria = new ArrayList<>();
 
 	public Persona() {
-		// TODO Auto-generated constructor stub
 	}
 	
 	public void vestir(List<Prenda> _sugerencias) {
