@@ -1,12 +1,12 @@
 package tp0.main;
 import tp0.main.Prenda;
 
-public class Torso extends Prenda{
+public class Torso implements Prenda{
 	private String tipo;
 	//private boolean estado;
 	
 	public Torso() {
-		tipo = "torso";
+		tipo = "Torso";
 	}
 
 	public String getTipo() {

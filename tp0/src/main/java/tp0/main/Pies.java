@@ -1,7 +1,7 @@
 package tp0.main;
 import tp0.main.Prenda;
 
-public class Pies extends Prenda{
+public class Pies implements Prenda{
 	private String tipo;
 
 	public Pies() {

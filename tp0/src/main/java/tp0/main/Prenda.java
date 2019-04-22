@@ -1,13 +1,7 @@
 package tp0.main;
 
-public class Prenda {
-
-	public Prenda() {
-		// TODO Auto-generated constructor stub
-	}
+public interface Prenda {
 	
-	public String getTipo(){
-		return "hola";
-	}
+	public String getTipo();
 
 }
