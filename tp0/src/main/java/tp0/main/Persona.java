@@ -20,5 +20,8 @@ public class Persona {
 			_sugerencias.stream().filter(prenda ->prenda.getTipo()== a).collect(Collectors.toList()).size();
 		}
 	}
+	public int cantidad(List<Prenda> _sugerencias) {
+		return _sugerencias.stream().filter(prenda ->prenda.getTipo()== "Piernas").collect(Collectors.toList()).size();
+	}
 
 }
