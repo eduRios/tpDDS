@@ -29,4 +29,5 @@ public class Persona {
 		return _sugerencias.stream().filter(prenda -> prenda.getTipo() == tipo).collect(Collectors.toList()).size();
 	}
 
+	// hola mundo
 }
